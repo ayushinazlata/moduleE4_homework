@@ -95,17 +95,3 @@ const appliances = [deskLamp, computer];
 // Подсчитываем общую мощность включенных приборов
 const totalPower = calculateTotalPower(appliances);
 console.log(`Общая потребляемая мощность: ${totalPower} Вт`);
-
-
-
-
-
-
-
-/* // Подсчет потребляемой мощности
-function totalPower(){
-    for (let n ElectricalAppliances.arguments.) {
-        if (key )
-    }
-
- */
