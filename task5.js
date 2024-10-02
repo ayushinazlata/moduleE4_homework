@@ -8,7 +8,7 @@ class ElectricalAppliances {
     constructor(name, power) {
         this.type = name,
         this.powerConsumtion = power,
-        this.powerOnOff = false;
+        this.powerOnOff = Symbol('false');
         
         // Добавляем каждый созданный экземпляр в массив
         ElectricalAppliances.instances.push(this);
@@ -54,7 +54,7 @@ class DeskLamp extends ElectricalAppliances {
     };
 
     changeColorTemperature(newColorTemperature) {
-        this.ColorTemperature = newColorTemperature;
+        this.сolorTemperature = newColorTemperature;
         console.log(`Температура цвета изменена на: ${this.newColorTemperature}`);
     }
 
